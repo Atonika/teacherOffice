@@ -1,0 +1,7 @@
+.profile {
+	margin: 24px 0 0 53px;
+	display: flex;
+	max-width: 450px;
+	border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}

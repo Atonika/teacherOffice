@@ -1,0 +1,15 @@
+.popup__button-upload {
+	margin: 20px 0 42px;
+	padding: 10px 20px;
+	display: block;
+	width: 177px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #1943ba;
+	border-radius: 20px;
+}

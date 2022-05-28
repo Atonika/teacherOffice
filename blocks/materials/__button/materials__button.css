@@ -1,0 +1,17 @@
+.materials__button {
+	margin: 20px 0 20px 260px;
+	padding: 8px 22px;
+	align-items: center;
+	justify-content: center;
+	width: 190px;
+	max-height: 32px;
+	background-color: #1944ba;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	border: none;
+	border-radius: 2px;
+	color: white;
+}

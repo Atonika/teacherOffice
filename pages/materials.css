@@ -1,0 +1,38 @@
+@import url('../vendor/normalize.css');
+
+@import url('../blocks/page/page.css');
+@import url('../blocks/button/button.css');
+
+@import url('../blocks/navbar/navbar.css');
+@import url('../blocks/navbar/__logo/navbar__logo.css');
+@import url('../blocks/navbar/__link/navbar__link.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__title/header__title.css');
+@import url('../blocks/header/__button/header__button.css');
+
+@import url('../blocks/content/content.css');
+
+@import url('../blocks/education/education.css');
+@import url('../blocks/materials/materials.css');
+@import url('../blocks/materials/__item/materials__item.css');
+@import url('../blocks/materials/__border/materials__boeder.css');
+@import url('../blocks/materials/__files/materials__files.css');
+@import url('../blocks/materials/__file/materials__file.css');
+@import url('../blocks/materials/__icon/materials__icon.css');
+@import url('../blocks/materials/__title/materials__title.css');
+@import url('../blocks/materials/__description/materials__description.css');
+@import url('../blocks/materials/__button/materials__button.css');
+
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/_opened/popup_opened.css');
+@import url('../blocks/popup/__closed/popup__closed.css');
+@import url('../blocks/popup/__icon-closed/popup__icon-closed.css');
+@import url('../blocks/popup/__content/popup__content.css');
+@import url('../blocks/popup/__title/popup__title.css');
+@import url('../blocks/popup/__form/popup__form.css');
+@import url('../blocks/popup/__input/popup__input.css');
+@import url('../blocks/inputfile/inputfile.css');
+@import url('../blocks/popup/__button-chooseFile/popup__button-chooseFile.css');
+@import url('../blocks/popup/__button-upload/popup__button-upload.css');
+@import url('../blocks/popup/__form/_type/form__input_type_error.css');

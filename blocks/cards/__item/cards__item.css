@@ -1,0 +1,21 @@
+.cards__item {
+	margin: 16px 16px 0 0;
+	width: 450px;
+	background: #F2F7F1;
+	border: 1px solid #E9E9EA;
+	border-radius: 2px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	.cards__item {
+		margin-right: 0;
+	}
+
+}
+
+
+
+
+

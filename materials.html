@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="pages/materials.css">
+  <title>ИСУ ИТМО</title>
+</head>
+
+<body class="page">
+
+<section class="navbar">
+  <img class="navbar__image" src="images/menu_button.jpg" alt="иконка меню">
+  <img class="navbar__logo" src="images/logo_navbar.jpg" alt="лого">
+  <a class="navbar__link" href="index.html">Личный кабинет</a>
+</section>
+
+<header class="header">
+  <h1 class="header__title">Материалы по предметам</h1>
+  <button class="button header__button">Статистика</button>
+</header>
+
+<main class="content">
+
+  <section class="education">
+    <ul class="materials">
+      <li class="materials__item">
+        <div class="materials__border">
+        <h2 class="materials__title">K34204: Информатика</h2>
+        <div class="materials__files">
+          <div class="materials__file">
+            <img class="materials__icon" src="images/icon_pdf.jpg">
+            <h3 class="materials__description">Лекция1.pdf</h3>
+          </div>
+          <div class="materials__file">
+            <img class="materials__icon" src="images/icon_pptx.jpg">
+            <h3 class="materials__description">Лекция1.pptx</h3>
+          </div>
+        </div>
+        </div>
+        <button class="button materials__button" id="materials__button1">Добавить материал</button>
+      </li>
+      <li class="materials__item">
+        <div class="materials__border">
+          <h2 class="materials__title">K34204: Информатика</h2>
+          <div class="materials__files">
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pdf.jpg">
+              <h3 class="materials__description">Лекция1.pdf</h3>
+            </div>
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pptx.jpg">
+              <h3 class="materials__description">Лекция1.pptx</h3>
+            </div>
+          </div>
+        </div>
+        <button class="button materials__button">Добавить материал</button>
+      </li>
+      <li class="materials__item">
+        <div class="materials__border">
+          <h2 class="materials__title">K34204: Информатика</h2>
+          <div class="materials__files">
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pdf.jpg">
+              <h3 class="materials__description">Лекция1.pdf</h3>
+            </div>
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pptx.jpg">
+              <h3 class="materials__description">Лекция1.pptx</h3>
+            </div>
+          </div>
+        </div>
+        <button class="button materials__button">Добавить материал</button>
+      </li>
+      <li class="materials__item">
+        <div class="materials__border">
+          <h2 class="materials__title">K34204: Информатика</h2>
+          <div class="materials__files">
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pdf.jpg">
+              <h3 class="materials__description">Лекция1.pdf</h3>
+            </div>
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pptx.jpg">
+              <h3 class="materials__description">Лекция1.pptx</h3>
+            </div>
+          </div>
+        </div>
+        <button class="button materials__button">Добавить материал</button>
+      </li>
+      <li class="materials__item">
+        <div class="materials__border">
+          <h2 class="materials__title">K34204: Информатика</h2>
+          <div class="materials__files">
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pdf.jpg">
+              <h3 class="materials__description">Лекция1.pdf</h3>
+            </div>
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pptx.jpg">
+              <h3 class="materials__description">Лекция1.pptx</h3>
+            </div>
+          </div>
+        </div>
+        <button class="button materials__button">Добавить материал</button>
+      </li>
+      <li class="materials__item">
+        <div class="materials__border">
+          <h2 class="materials__title">K34204: Информатика</h2>
+          <div class="materials__files">
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pdf.jpg">
+              <h3 class="materials__description">Лекция1.pdf</h3>
+            </div>
+            <div class="materials__file">
+              <img class="materials__icon" src="images/icon_pptx.jpg">
+              <h3 class="materials__description">Лекция1.pptx</h3>
+            </div>
+          </div>
+        </div>
+        <button class="button materials__button">Добавить материал</button>
+      </li>
+    </ul>
+  </section>
+</main>
+
+
+<div class="popup popup_addFile">
+  <div class="popup__content">
+    <button class="button popup__closed" type="button">
+      <img class="popup__icon-closed" src="./images/close.svg" alt="крестик закрытия">
+    </button>
+    <h2 class="popup__title">Добавить файл</h2>
+    <form class="popup__form " name="popupForm" novalidate>
+      <input class="popup__input" placeholder="Имя файла" type="text" name="popupPlace" value=""
+             required minlength="2" maxlength="30" id="place">
+      <input class="inputfile" name="file" type="file" id="file" multiple>
+      <label class="button popup__button-chooseFile" for="file">Выбрать файл</label>
+      <button class="button popup__button-upload" type="submit">Загрузить</button>
+    </form>
+  </div>
+</div>
+
+<script src="components/materials.js"></script>
+</body>
+
+</html>

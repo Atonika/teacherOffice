@@ -1,0 +1,9 @@
+.cards__description {
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	color: black;
+	opacity: .8;
+}

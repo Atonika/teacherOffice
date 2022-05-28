@@ -1,0 +1,12 @@
+.profile__button {
+	padding: 7px 12px;
+	max-width: 176px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+	background: #55AFC6;
+	border-radius: 2px;
+}

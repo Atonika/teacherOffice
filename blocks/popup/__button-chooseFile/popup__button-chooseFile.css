@@ -1,0 +1,15 @@
+.popup__button-chooseFile {
+	margin: 20px 0 0;
+	padding: 10px 20px;
+	display: block;
+	width: 135px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	align-items: center;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 1px solid #1945BA;
+	border-radius: 20px;
+}

@@ -1,0 +1,6 @@
+.favorites {
+	margin: 45px 0 0 53px;
+	display: flex;
+	flex-direction: column;
+	max-width: 260px;
+}

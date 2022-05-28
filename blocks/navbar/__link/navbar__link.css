@@ -1,0 +1,11 @@
+.navbar__link {
+	margin: 13px 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 0.01em;
+	text-decoration: none;
+	color: #555658;
+}

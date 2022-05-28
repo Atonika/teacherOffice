@@ -1,0 +1,8 @@
+.materials__file {
+	padding: 15px 0 0 16px;
+	display: flex;
+}
+
+.materials__file:last-of-type {
+	padding: 16px;
+}
